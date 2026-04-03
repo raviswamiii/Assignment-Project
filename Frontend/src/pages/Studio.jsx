@@ -23,7 +23,7 @@ export const Studio = () => {
         />
         <img className="w-[55vw] z-10" src={img1} alt="Image 1" />
 
-        <div className="flex flex-col gap-1 px-4">
+        <div className="flex flex-col w-[85vw] px-4">
           <img className="w-[85vw]" src={MainText1} alt="Main Text 1" />
           <p className="text-xs">
             We are a team of strategists, designers communicators, researchers.
@@ -31,7 +31,7 @@ export const Studio = () => {
             play things safe.
           </p>
 
-          <div className="flex items-center gap-2 font-semibold text-sm pt-1">
+          <div className="flex items-center gap-2 font-semibold text-sm pt-2">
             <p>Read More</p>
             {/* <div className="w-16 h-0.5 bg-black relative">
               <span className="absolute right-0 top-1/2 -translate-y-1/2 w-2 h-2 border-t-2 border-r-2 border-black rotate-45"></span>
@@ -55,7 +55,7 @@ export const Studio = () => {
 
         <img className="w-[55vw] z-10" src={img2} alt="Image 2" />
 
-        <div className="flex flex-col gap-1 px-4">
+        <div className="flex flex-col w-[85vw] px-4">
           <img className="w-[85vw]" src={MainText2} alt="Main Text 2" />
           <p className="text-xs">
             We add a layer of fearless insights and action that allows change
@@ -63,7 +63,7 @@ export const Studio = () => {
             digital, comms and social research.
           </p>
 
-          <div className="flex items-center gap-2 font-semibold text-sm pt-1">
+          <div className="flex items-center gap-2 font-semibold text-sm pt-2">
             <p>Read More</p>
             {/* <div className="w-16 h-0.5 bg-black relative">
               <span className="absolute right-0 top-1/2 -translate-y-1/2 w-2 h-2 border-t-2 border-r-2 border-black rotate-45"></span>
