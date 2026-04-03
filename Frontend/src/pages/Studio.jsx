@@ -12,18 +12,18 @@ import Elipse734 from "../assets/StudioAssets/Ellipse 734.svg";
 export const Studio = () => {
   return (
     <div className="h-screen relative">
-        <img className="w-[90vh] absolute top-[30vh] right-0" src={line1} alt="line1" />
-        <img className="w-[90vh] absolute top-[75vh] right-0" src={line2} alt="line2" />
+        <img className="w-[90vw] absolute top-[22vh] right-0" src={line1} alt="line1" />
+        <img className="w-[90vw] absolute top-[72vh] right-0" src={line2} alt="line2" />
 
       <div className="relative flex flex-col items-center gap-[4vh] pt-16">
         <img
-          className="w-[25vw] absolute top-[10vh] right-[16vw]"
+          className="w-[25vw] sm:w-[20vw] absolute top-[10vh] right-[16vw] sm:right-[22vw]"
           src={Polygon3}
           alt="Polygon 3"
         />
-        <img className="w-[55vw] z-10" src={img1} alt="Image 1" />
+        <img className="w-[55vw] sm:w-[45vw] z-10" src={img1} alt="Image 1" />
 
-        <div className="flex flex-col w-[85vw] px-4">
+        <div className="flex flex-col w-[85vw] sm:w-[75vw] px-4">
           <img className="w-[85vw]" src={MainText1} alt="Main Text 1" />
           <p className="text-xs">
             We are a team of strategists, designers communicators, researchers.
@@ -42,20 +42,20 @@ export const Studio = () => {
 
       <div className="relative flex flex-col items-center gap-[4vh] pt-16">
         <img
-          className="w-[25vw] absolute top-[10vh] left-[18vw]"
+          className="w-[25vw] absolute top-[10vh] left-[18vw] sm:left-[22vw]"
           src={Polygon1}
           alt="Polygon 1"
         />
 
         <img
-          className="w-[25vw] absolute top-[32vh] right-[18vw] z-20"
+          className="w-[25vw] sm:w-[20vw] absolute top-[32vh] sm:top-[38vh] right-[18vw] sm:right-[22vw] z-20"
           src={Polygon1}
           alt="Polygon 1"
         />
 
-        <img className="w-[55vw] z-10" src={img2} alt="Image 2" />
+        <img className="w-[55vw] sm:w-[45vw] z-10" src={img2} alt="Image 2" />
 
-        <div className="flex flex-col w-[85vw] px-4">
+        <div className="flex flex-col w-[85vw] sm:w-[75vw] px-4">
           <img className="w-[85vw]" src={MainText2} alt="Main Text 2" />
           <p className="text-xs">
             We add a layer of fearless insights and action that allows change
