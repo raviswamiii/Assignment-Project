@@ -11,27 +11,31 @@ import Elipse734 from "../assets/StudioAssets/Ellipse 734.svg";
 
 export const Studio = () => {
   return (
-    <div className="h-screen relative">
+    <div className="h-screen relative pt-16 md:pt-[16vh]">
       <img
-        className="w-[90vw] absolute top-[20vh] sm:top-[18vh] right-0"
+        className="w-[90vw] md:w-[80vw] absolute top-[20vh] sm:top-[18vh] md:top-[40vh] right-0"
         src={line1}
         alt="line1"
       />
       <img
-        className="w-[90vw] absolute top-[72vh] right-0"
+        className="w-[90vw] md:w-[60vw] absolute top-[57vh] md:top-[80vh] right-0"
         src={line2}
         alt="line2"
       />
 
-      <div className="relative pt-16">
+      <div className="relative">
         <img
-          className="w-[25vw] sm:w-[20vw] absolute top-[10vh] right-[16vw] sm:right-[22vw]"
+          className="w-[25vw] sm:w-[20vw] md:w-[15vw] absolute top-0 right-[14vw] sm:right-[22vw] md:right-[3vw]"
           src={Polygon3}
           alt="Polygon 3"
         />
 
-        <div className="flex flex-col items-center gap-4">
-          <img className="w-[55vw] sm:w-[45vw] z-10" src={img1} alt="Image 1" />
+        <div className="flex flex-col md:flex-row-reverse items-center gap-4 md:gap-[8vw] md:px-[8vw]">
+          <img
+            className="w-[55vw] sm:w-[45vw] md:w-[30vw] z-10"
+            src={img1}
+            alt="Image 1"
+          />
 
           <div className="flex flex-col w-[85vw] sm:w-[75vw] px-4">
             <img src={MainText1} alt="Main Text 1" />
@@ -51,34 +55,39 @@ export const Studio = () => {
         </div>
       </div>
 
-      <div className="relative flex flex-col items-center gap-[4vh] pt-16">
+      <div className="relative flex flex-col items-center gap-[4vh] pt-[14vh]">
         <img
-          className="w-[25vw] absolute top-[10vh] left-[18vw] sm:left-[22vw]"
+          className="w-[25vw] md:w-[15vw] absolute top-[14vh] md:top-[12vh] left-[18vw] sm:left-[22vw] md:left-[6vw]"
+          src={Polygon1}
+          alt="Polygon 1"
+        />
+        <img
+          className="w-[25vw] sm:w-[20vw] md:w-[15vw] absolute top-[35vh] sm:top-[43vh] md:top-[36vh] right-[18vw] sm:right-[22vw] md:left-[27vw] z-20"
           src={Polygon1}
           alt="Polygon 1"
         />
 
-        <img
-          className="w-[25vw] sm:w-[20vw] absolute top-[32vh] sm:top-[38vh] right-[18vw] sm:right-[22vw] z-20"
-          src={Polygon1}
-          alt="Polygon 1"
-        />
+        <div className="flex flex-col md:flex-row items-center gap-4 md:gap-[8vw] md:px-[8vw]">
+          <img
+            className="w-[55vw] sm:w-[45vw] md:w-[30vw] z-10"
+            src={img2}
+            alt="Image 2"
+          />
 
-        <img className="w-[55vw] sm:w-[45vw] z-10" src={img2} alt="Image 2" />
+          <div className="flex flex-col w-[85vw] sm:w-[75vw] px-4">
+            <img src={MainText2} alt="Main Text 2" />
+            <p className="text-xs">
+              We add a layer of fearless insights and action that allows change
+              makers to accelerate their progress in areas such as brand, design
+              digital, comms and social research.
+            </p>
 
-        <div className="flex flex-col w-[85vw] sm:w-[75vw] px-4">
-          <img src={MainText2} alt="Main Text 2" />
-          <p className="text-xs">
-            We add a layer of fearless insights and action that allows change
-            makers to accelerate their progress in areas such as brand, design
-            digital, comms and social research.
-          </p>
-
-          <div className="flex items-center gap-2 font-semibold text-sm pt-2">
-            <p>Read More</p>
-            {/* <div className="w-16 h-0.5 bg-black relative">
+            <div className="flex items-center gap-2 font-semibold text-sm pt-2">
+              <p>Read More</p>
+              {/* <div className="w-16 h-0.5 bg-black relative">
               <span className="absolute right-0 top-1/2 -translate-y-1/2 w-2 h-2 border-t-2 border-r-2 border-black rotate-45"></span>
             </div> */}
+            </div>
           </div>
         </div>
       </div>
