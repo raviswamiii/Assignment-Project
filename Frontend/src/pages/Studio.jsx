@@ -55,14 +55,14 @@ export const Studio = () => {
         </div>
       </div>
 
-      <div className="relative flex flex-col items-center gap-[4vh] pt-[14vh]">
+      <div className="relative flex flex-col items-center gap-[4vh] pt-[14vh] lg:pt-[18vh]">
         <img
-          className="w-[25vw] md:w-[15vw] absolute top-[14vh] md:top-[12vh] left-[18vw] sm:left-[22vw] md:left-[6vw]"
+          className="w-[25vw] md:w-[15vw] absolute top-[14vh] md:top-[12vh] lg:top-[16vh] left-[18vw] sm:left-[22vw] md:left-[6vw]"
           src={Polygon1}
           alt="Polygon 1"
         />
         <img
-          className="w-[25vw] sm:w-[20vw] md:w-[15vw] absolute top-[35vh] sm:top-[43vh] md:top-[36vh] right-[18vw] sm:right-[22vw] md:left-[27vw] z-20"
+          className="w-[25vw] sm:w-[20vw] md:w-[15vw] lg:w-[12vw] absolute top-[35vh] sm:top-[43vh] md:top-[36vh] lg:top-[50vh] right-[18vw] sm:right-[22vw] md:left-[27vw] z-20"
           src={Polygon1}
           alt="Polygon 1"
         />
