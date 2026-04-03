@@ -18,26 +18,26 @@ export const Studio = () => {
         alt="line1"
       />
       <img
-        className="w-[90vw] md:w-[60vw] absolute top-[57vh] md:top-[80vh] right-0"
+        className="md:hidden w-[90vw] md:w-[60vw] absolute top-[57vh] md:top-[80vh] right-0"
         src={line2}
         alt="line2"
       />
 
       <div className="relative">
         <img
-          className="w-[25vw] sm:w-[20vw] md:w-[15vw] absolute top-0 right-[14vw] sm:right-[22vw] md:right-[3vw]"
+          className="w-[25vw] sm:w-[20vw] md:w-[15vw] xl:w-[10vw] absolute top-0 right-[14vw] sm:right-[22vw] md:right-[3vw] xl:right-[5vw]"
           src={Polygon3}
           alt="Polygon 3"
         />
 
-        <div className="flex flex-col md:flex-row-reverse items-center gap-4 md:gap-[8vw] md:px-[8vw]">
+        <div className="flex flex-col md:flex-row-reverse items-center md:justify-between gap-4 md:gap-[8vw] md:px-[8vw]">
           <img
-            className="w-[55vw] sm:w-[45vw] md:w-[30vw] z-10"
+            className="w-[55vw] sm:w-[45vw] md:w-[30vw] xl:w-[22vw] z-10"
             src={img1}
             alt="Image 1"
           />
 
-          <div className="flex flex-col w-[85vw] sm:w-[75vw] px-4">
+          <div className="flex flex-col w-[85vw] sm:w-[75vw] xl:w-[40vw] px-4">
             <img src={MainText1} alt="Main Text 1" />
             <p className="text-xs">
               We are a team of strategists, designers communicators,
@@ -55,26 +55,26 @@ export const Studio = () => {
         </div>
       </div>
 
-      <div className="relative flex flex-col items-center gap-[4vh] pt-[14vh] lg:pt-[18vh]">
+      <div className="relative pt-[14vh] lg:pt-[18vh]">
         <img
-          className="w-[25vw] md:w-[15vw] absolute top-[14vh] md:top-[12vh] lg:top-[16vh] left-[18vw] sm:left-[22vw] md:left-[6vw]"
+          className="w-[25vw] md:w-[15vw] xl:w-[10vw] absolute top-[14vh] md:top-[12vh] lg:top-[16vh] left-[18vw] sm:left-[22vw] md:left-[6vw] xl:left-[7vw]"
           src={Polygon1}
           alt="Polygon 1"
         />
         <img
-          className="w-[25vw] sm:w-[20vw] md:w-[15vw] lg:w-[12vw] absolute top-[35vh] sm:top-[43vh] md:top-[36vh] lg:top-[50vh] right-[18vw] sm:right-[22vw] md:left-[27vw] z-20"
+          className="w-[25vw] sm:w-[20vw] md:w-[15vw] lg:w-[12vw] xl:w-[9vw] absolute top-[35vh] sm:top-[43vh] md:top-[36vh] lg:top-[50vh] xl:top-[47vh] right-[18vw] sm:right-[22vw] md:left-[27vw] xl:left-[22vw] z-20"
           src={Polygon1}
           alt="Polygon 1"
         />
 
-        <div className="flex flex-col md:flex-row items-center gap-4 md:gap-[8vw] md:px-[8vw]">
+        <div className="flex flex-col md:flex-row items-center md:justify-between gap-4 md:gap-[8vw] md:px-[8vw]">
           <img
-            className="w-[55vw] sm:w-[45vw] md:w-[30vw] z-10"
+            className="w-[55vw] sm:w-[45vw] md:w-[30vw] xl:w-[22vw] z-10"
             src={img2}
             alt="Image 2"
           />
 
-          <div className="flex flex-col w-[85vw] sm:w-[75vw] px-4">
+          <div className="flex flex-col w-[85vw] sm:w-[75vw] xl:w-[40vw] px-4">
             <img src={MainText2} alt="Main Text 2" />
             <p className="text-xs">
               We add a layer of fearless insights and action that allows change
