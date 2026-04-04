@@ -2,6 +2,7 @@ import React from 'react'
 import { Home } from './pages/Home'
 import { Studio } from './pages/Studio'
 import { Services } from './pages/Services'
+import { AboutUs } from './pages/AboutUs'
 
 export const App = () => {
   return (
@@ -9,6 +10,7 @@ export const App = () => {
       <Home/>
       <Studio/>
       <Services/>
+      <AboutUs/>
     </div>
   )
 }
