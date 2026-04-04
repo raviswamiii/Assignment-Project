@@ -26,7 +26,6 @@ export const Services = () => {
 
   return (
     <div className="pt-[16vh] md:pt-[20vh] lg:pt-[25vh] flex flex-col items-center md:items-start gap-[4vh] lg:gap-[6vh] px-[6vw] md:px-[8vw]">
-      {/* Heading */}
       <img
         className="w-[70vw] sm:w-[60vw] md:w-[50vw] lg:w-[40vw] xl:w-[30vw]"
         src={MainText}
