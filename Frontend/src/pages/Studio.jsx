@@ -18,7 +18,7 @@ export const Studio = () => {
         alt="line1"
       />
       <img
-        className="md:hidden w-[90vw] md:w-[60vw] absolute top-[57vh] md:top-[80vh] right-0"
+        className="w-[90vw] md:w-[60vw] absolute top-[57vh] md:top-[80vh] right-0"
         src={line2}
         alt="line2"
       />

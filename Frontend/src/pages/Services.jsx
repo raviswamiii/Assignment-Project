@@ -33,7 +33,6 @@ export const Services = () => {
         alt="Main Text"
       />
 
-      {/* Services List */}
       <div className="w-full flex flex-col border-t border-gray-400">
         {serviceContainer.map((item, index) => (
           <div
