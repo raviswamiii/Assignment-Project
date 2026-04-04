@@ -11,7 +11,7 @@ import Elipse734 from "../assets/StudioAssets/Ellipse 734.svg";
 
 export const Studio = () => {
   return (
-    <div className="h-screen relative pt-16 md:pt-[16vh]">
+    <div className="min-h-screen relative pt-16 md:pt-[16vh]">
       <img
         className="w-[90vw] md:w-[80vw] absolute top-[20vh] sm:top-[18vh] md:top-[40vh] right-0"
         src={line1}
